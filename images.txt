@@ -1,5 +1,5 @@
 pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 vllm/vllm-openai:v0.5.1
 michaelf34/infinity:0.0.51
-ghcr.io/abetlen/llama-cpp-python:server
-ghcr.io/abetlen/llama-cpp-python:server-cuda
+ghcr.io/ggerganov/llama.cpp:server
+ghcr.io/ggerganov/llama.cpp:server-cuda
