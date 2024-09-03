@@ -9,3 +9,4 @@ ghcr.io/ggerganov/llama.cpp:server
 ghcr.io/ggerganov/llama.cpp:server-cuda
 ghcr.io/ggerganov/llama.cpp:light
 ghcr.io/ggerganov/llama.cpp:light-cuda
+doccano/doccano:1.8
