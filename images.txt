@@ -5,9 +5,9 @@
 #pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 #pytorch/pytorch:2.4.1-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.5.0-cuda12.1-cudnn9-runtime
-pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
+#pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #vllm/vllm-openai:v0.5.1
-#ghcr.io/ggerganov/llama.cpp:server
+ghcr.io/ggerganov/llama.cpp:server
 #ghcr.io/ggerganov/llama.cpp:server-cuda
 #ghcr.io/ggerganov/llama.cpp:light
 #ghcr.io/ggerganov/llama.cpp:light-cuda
