@@ -7,10 +7,11 @@
 #pytorch/pytorch:2.5.0-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #vllm/vllm-openai:v0.5.1
-ghcr.io/ggerganov/llama.cpp:server
-#ghcr.io/ggerganov/llama.cpp:server-cuda
-#ghcr.io/ggerganov/llama.cpp:light
-#ghcr.io/ggerganov/llama.cpp:light-cuda
+#ghcr.io/ggerganov/llama.cpp:server
 #doccano/doccano:1.8
 #qdrant/qdrant:v1.12.1
 #michaelf34/infinity:0.0.66
+ubuntu/squid:6.10-24.10_edge
+langgenius/dify-sandbox:0.2.10
+langgenius/dify-api:0.14.1
+langgenius/dify-web:0.14.1
