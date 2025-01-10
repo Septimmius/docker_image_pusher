@@ -12,5 +12,5 @@
 #langgenius/dify-web:0.14.1
 redis:7.4.0
 pgvector/pgvector:0.8.0-pg17
-paradedb:v0.13.2
+paradedb/paradedb:v0.13.2
 michaelf34/infinity:0.0.74
