@@ -2,11 +2,13 @@
 #ubuntu:24.04
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #vllm/vllm-openai:v0.5.1
-vllm/vllm-openai:v0.6.1.post2
+#vllm/vllm-openai:v0.6.1.post2
 #ghcr.io/ggerganov/llama.cpp:server
 #doccano/doccano:1.8
 #qdrant/qdrant:v1.12.1
+michaelf34/infinity:0.0.51
 #michaelf34/infinity:0.0.66
+#michaelf34/infinity:0.0.74
 #ubuntu/squid:6.10-24.10_edge
 #langgenius/dify-sandbox:0.2.10
 #langgenius/dify-api:0.14.1
@@ -14,4 +16,3 @@ vllm/vllm-openai:v0.6.1.post2
 #redis:7.4.0
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
-#michaelf34/infinity:0.0.74
