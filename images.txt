@@ -3,7 +3,7 @@
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 #vllm/vllm-openai:v0.5.1
-vllm/vllm-openai:v0.5.2
+#vllm/vllm-openai:v0.5.2
 #vllm/vllm-openai:v0.6.1.post2
 #ghcr.io/ggerganov/llama.cpp:server
 #doccano/doccano:1.8
@@ -18,3 +18,4 @@ michaelf34/infinity:0.0.51
 #redis:7.4.0
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
+approachingai/ktransformers:0.2.1
