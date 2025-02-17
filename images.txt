@@ -5,10 +5,11 @@
 #vllm/vllm-openai:v0.5.1
 #vllm/vllm-openai:v0.5.2
 #vllm/vllm-openai:v0.6.1.post2
-ghcr.io/ggml-org/llama.cpp:server
+#ghcr.io/ggml-org/llama.cpp:server
+ghcr.io/ggml-org/llama.cpp:server-cuda
 #doccano/doccano:1.8
 #qdrant/qdrant:v1.12.1
-michaelf34/infinity:0.0.51
+#michaelf34/infinity:0.0.51
 #michaelf34/infinity:0.0.66
 #michaelf34/infinity:0.0.74
 #ubuntu/squid:6.10-24.10_edge
