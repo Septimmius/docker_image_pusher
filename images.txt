@@ -5,7 +5,7 @@
 #vllm/vllm-openai:v0.5.1
 #vllm/vllm-openai:v0.5.2
 #vllm/vllm-openai:v0.6.1.post2
-ghcr.io/ggerganov/llama.cpp:server
+ghcr.io/ggml-org/llama.cpp:server
 #doccano/doccano:1.8
 #qdrant/qdrant:v1.12.1
 michaelf34/infinity:0.0.51
