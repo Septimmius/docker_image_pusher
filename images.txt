@@ -7,7 +7,7 @@
 #vllm/vllm-openai:v0.6.1.post2
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
-ghcr.io/ggml-org/llama.cpp:light-cuda
+#ghcr.io/ggml-org/llama.cpp:light-cuda
 #doccano/doccano:1.8
 #qdrant/qdrant:v1.12.1
 #michaelf34/infinity:0.0.51
@@ -21,3 +21,5 @@ ghcr.io/ggml-org/llama.cpp:light-cuda
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
+ollama/ollama:0.5.11
+ghcr.io/open-webui/open-webui:main
