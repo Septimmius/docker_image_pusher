@@ -2,9 +2,11 @@
 #ubuntu:24.04
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+pytorch/pytorch:2.4.0-cuda12.1-cudnn9-devel
 #vllm/vllm-openai:v0.5.1
 #vllm/vllm-openai:v0.5.2
 #vllm/vllm-openai:v0.6.1.post2
+vllm/vllm-openai:v0.7.2
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
 #ghcr.io/ggml-org/llama.cpp:light-cuda
@@ -21,5 +23,5 @@
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
-ollama/ollama:0.5.11
-ghcr.io/open-webui/open-webui:main
+#ollama/ollama:0.5.11
+#ghcr.io/open-webui/open-webui:main
