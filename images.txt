@@ -16,9 +16,10 @@
 #michaelf34/infinity:0.0.66
 #michaelf34/infinity:0.0.74
 #ubuntu/squid:6.10-24.10_edge
-langgenius/dify-sandbox:latest
-langgenius/dify-api:latest
-langgenius/dify-web:latest
+#langgenius/dify-sandbox:latest
+#langgenius/dify-api:latest
+#langgenius/dify-web:latest
+langgenius/dify-plugin-daemon:latest
 #redis:7.4.0
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
