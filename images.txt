@@ -19,7 +19,7 @@
 #langgenius/dify-sandbox:latest
 #langgenius/dify-api:latest
 #langgenius/dify-web:latest
-langgenius/dify-plugin-daemon:latest
+langgenius/dify-plugin-daemon:latest-local
 #redis:7.4.0
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
