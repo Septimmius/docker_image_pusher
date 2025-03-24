@@ -7,7 +7,7 @@
 #vllm/vllm-openai:v0.5.2
 #vllm/vllm-openai:v0.6.1.post2
 #vllm/vllm-openai:v0.7.2
-vllm/vllm-openai:v0.7.3
+#vllm/vllm-openai:v0.7.3
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
 #ghcr.io/ggml-org/llama.cpp:light-cuda
@@ -27,3 +27,4 @@ vllm/vllm-openai:v0.7.3
 #approachingai/ktransformers:0.2.1
 #ollama/ollama:0.5.11
 #ghcr.io/open-webui/open-webui:main
+uptospace/unsloth:latest
