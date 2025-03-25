@@ -27,4 +27,5 @@
 #approachingai/ktransformers:0.2.1
 #ollama/ollama:0.5.11
 #ghcr.io/open-webui/open-webui:main
-uptospace/unsloth:latest
+#uptospace/unsloth:latest
+nvcr.io/nvidia/pytorch:25.02-py3
