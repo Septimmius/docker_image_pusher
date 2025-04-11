@@ -8,6 +8,7 @@
 #vllm/vllm-openai:v0.6.1.post2
 #vllm/vllm-openai:v0.7.2
 #vllm/vllm-openai:v0.7.3
+vllm/vllm-openai:v0.8.3
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
 #ghcr.io/ggml-org/llama.cpp:light-cuda
@@ -29,4 +30,4 @@
 #ghcr.io/open-webui/open-webui:main
 #uptospace/unsloth:latest
 #nvcr.io/nvidia/pytorch:25.02-py3
-nvcr.io/nvidia/pytorch:24.12-py3
+#nvcr.io/nvidia/pytorch:24.12-py3
