@@ -34,4 +34,5 @@
 #uptospace/unsloth:latest
 #nvcr.io/nvidia/pytorch:25.02-py3
 #nvcr.io/nvidia/pytorch:24.12-py3
-nvcr.io/nvidia/cuda:12.6.0-devel-ubuntu24.04
+#nvcr.io/nvidia/cuda:12.6.0-devel-ubuntu24.04
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.1
