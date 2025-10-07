@@ -12,7 +12,7 @@
 #vllm/vllm-openai:v0.9.1
 #vllm/vllm-openai:v0.8.5
 #vllm/vllm-openai:v0.10.0
-vllm/vllm-openai:v0.11.0
+#vllm/vllm-openai:v0.11.0
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
 #ghcr.io/ggml-org/llama.cpp:light-cuda
@@ -23,6 +23,7 @@ vllm/vllm-openai:v0.11.0
 #michaelf34/infinity:0.0.74
 #ubuntu/squid:6.10-24.10_edge
 #langgenius/dify-sandbox:latest
+lmsysorg/sglang:v0.5.3-cu129
 #langgenius/dify-api:latest
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
@@ -37,3 +38,4 @@ vllm/vllm-openai:v0.11.0
 #nvcr.io/nvidia/pytorch:24.12-py3
 #nvcr.io/nvidia/cuda:12.6.0-devel-ubuntu24.04
 #nvcr.io/nvidia/tensorrt-llm/release:1.2.0rc0
+lmsysorg/sglang:v0.5.3-cu129
