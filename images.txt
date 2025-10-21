@@ -23,7 +23,6 @@
 #michaelf34/infinity:0.0.74
 #ubuntu/squid:6.10-24.10_edge
 #langgenius/dify-sandbox:latest
-lmsysorg/sglang:v0.5.3-cu129
 #langgenius/dify-api:latest
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
@@ -39,4 +38,7 @@ lmsysorg/sglang:v0.5.3-cu129
 #nvcr.io/nvidia/cuda:12.6.0-devel-ubuntu24.04
 #nvcr.io/nvidia/tensorrt-llm/release:1.2.0rc0
 #lmsysorg/sglang:v0.5.3-cu129
-langfuse/langfuse:3.120.0
+langfuse/langfuse:3
+langfuse/langfuse-worker:3
+minio/minio:latest
+clickhouse/clickhouse-server:25.3
