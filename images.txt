@@ -42,4 +42,5 @@
 #langfuse/langfuse-worker:3
 #minio/minio:latest
 #clickhouse/clickhouse-server:25.3
-langchain/langgraph-api:3.12
+#langchain/langgraph-api:3.12
+node:20-alpine
