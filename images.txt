@@ -43,4 +43,5 @@
 #minio/minio:latest
 #clickhouse/clickhouse-server:25.3
 #langchain/langgraph-api:3.12
-node:20-alpine
+#node:20-alpine
+node:18-alpine
