@@ -27,6 +27,7 @@
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
 #redis:7.4.0
+redis:6
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
@@ -44,5 +45,5 @@
 #clickhouse/clickhouse-server:25.3
 #langchain/langgraph-api:3.12
 #node:20-alpine
-node:18-alpine
-node:18-slim
+#node:18-alpine
+#node:18-slim
