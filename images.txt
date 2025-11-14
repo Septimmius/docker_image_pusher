@@ -27,7 +27,7 @@
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
 #redis:7.4.0
-redis:6
+#redis:6
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
@@ -47,3 +47,4 @@ redis:6
 #node:20-alpine
 #node:18-alpine
 #node:18-slim
+neo4j:5.26.16-community
