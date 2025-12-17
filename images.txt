@@ -13,7 +13,7 @@
 #vllm/vllm-openai:v0.8.5
 #vllm/vllm-openai:v0.10.0
 #vllm/vllm-openai:v0.11.0
-vllm/vllm-openai:v0.11.1
+#vllm/vllm-openai:v0.11.1
 #vllm/vllm-openai:v0.12.0
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
@@ -50,5 +50,6 @@ vllm/vllm-openai:v0.11.1
 #node:20-alpine
 #node:18-alpine
 #node:18-slim
+node:22-slim
 #neo4j:5.26.16-community
 #nginx:1.29.3
