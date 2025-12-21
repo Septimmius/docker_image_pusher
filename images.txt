@@ -50,6 +50,7 @@
 #node:20-alpine
 #node:18-alpine
 #node:18-slim
-node:22-slim
+#node:22-slim
 #neo4j:5.26.16-community
 #nginx:1.29.3
+selenium/standalone-chrome:142.0-20251202
