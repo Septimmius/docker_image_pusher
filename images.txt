@@ -54,4 +54,5 @@
 #neo4j:5.26.16-community
 #nginx:1.29.3
 #chromedp/headless-shell:135.0.7049.115
-ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
+#ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
+ghcr.io/huggingface/text-embeddings-inference:cpu-1.8.3
