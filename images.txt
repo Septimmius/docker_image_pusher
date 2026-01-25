@@ -42,6 +42,7 @@
 #nvcr.io/nvidia/tensorrt-llm/release:1.2.0rc0
 #lmsysorg/sglang:v0.5.3-cu129
 #lmsysorg/sglang:v0.5.6
+lmsysorg/sglang:v0.5.8
 #langfuse/langfuse:3
 #langfuse/langfuse-worker:3
 #minio/minio:latest
@@ -55,4 +56,4 @@
 #nginx:1.29.3
 #chromedp/headless-shell:135.0.7049.115
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
-ghcr.io/huggingface/text-embeddings-inference:cpu-1.8.3
+#ghcr.io/huggingface/text-embeddings-inference:cpu-1.8.3
