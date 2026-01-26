@@ -15,6 +15,7 @@
 #vllm/vllm-openai:v0.11.0
 #vllm/vllm-openai:v0.11.1
 #vllm/vllm-openai:v0.12.0
+vllm/vllm-openai:v0.14.1
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
 #ghcr.io/ggml-org/llama.cpp:light-cuda
@@ -42,7 +43,7 @@
 #nvcr.io/nvidia/tensorrt-llm/release:1.2.0rc0
 #lmsysorg/sglang:v0.5.3-cu129
 #lmsysorg/sglang:v0.5.6
-lmsysorg/sglang:v0.5.8
+#lmsysorg/sglang:v0.5.8
 #langfuse/langfuse:3
 #langfuse/langfuse-worker:3
 #minio/minio:latest
