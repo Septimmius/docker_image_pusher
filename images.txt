@@ -19,7 +19,8 @@
 #vllm/vllm-openai:v0.15.0
 #vllm/vllm-openai:v0.16.0
 #vllm/vllm-openai:glm5
-vllm/vllm-openai:nightly
+#vllm/vllm-openai:nightly
+vllm/vllm-openai:v0.20.0
 #infantryman77/glm-47-flash-awq
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
@@ -54,7 +55,7 @@ vllm/vllm-openai:nightly
 #langfuse/langfuse-worker:3
 #minio/minio:latest
 #clickhouse/clickhouse-server:25.3
-langchain/langgraph-api:3.12
+#langchain/langgraph-api:3.12
 #node:20-alpine
 #node:18-alpine
 #node:18-slim
