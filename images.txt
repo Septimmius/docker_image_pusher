@@ -20,7 +20,7 @@
 #vllm/vllm-openai:v0.16.0
 #vllm/vllm-openai:glm5
 #vllm/vllm-openai:nightly
-vllm/vllm-openai:v0.20.0
+#vllm/vllm-openai:v0.20.0
 #infantryman77/glm-47-flash-awq
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
@@ -65,3 +65,4 @@ vllm/vllm-openai:v0.20.0
 #chromedp/headless-shell:135.0.7049.115
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8.3
+ghcr.io/huggingface/text-embeddings-inference:89-1.9
