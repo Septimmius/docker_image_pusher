@@ -37,9 +37,10 @@
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
 #redis:7.4.0
---platform=linux/arm64/v8 redis:6
---platform=linux/amd64 redis:6
-#pgvector/pgvector:0.8.0-pg17
+#--platform=linux/arm64/v8 redis:6
+#--platform=linux/amd64 redis:6
+--platform=linux/amd64 pgvector/pgvector:0.8.0-pg17
+--platform=linux/arm64 pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
 #ollama/ollama:0.5.11
@@ -57,12 +58,15 @@
 #langfuse/langfuse-worker:3
 #minio/minio:latest
 #clickhouse/clickhouse-server:25.3
-#langchain/langgraph-api:3.12
+--platform=linux/amd64 langchain/langgraph-api:3.12
+--platform=linux/arm64 langchain/langgraph-api:3.12
 #node:20-alpine
 #node:18-alpine
 #node:18-slim
-#node:22-slim
-#neo4j:5.26.16-community
+--platform=linux/amd64 node:22-slim
+--platform=linux/arm64/v8 node:22-slim
+--platform=linux/amd64 neo4j:5.26.16-community
+--platform=linux/arm64/v8 neo4j:5.26.16-community
 #nginx:1.29.3
 #chromedp/headless-shell:135.0.7049.115
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
