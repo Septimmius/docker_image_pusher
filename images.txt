@@ -37,7 +37,8 @@
 #langgenius/dify-web:latest
 #langgenius/dify-plugin-daemon:0.0.1-local
 #redis:7.4.0
---platform=linux/amd64,linux/arm64/v8 redis:6
+--platform=linux/arm64/v8 redis:6
+--platform=linux/amd64 redis:6
 #pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
