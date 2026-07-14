@@ -1,5 +1,6 @@
 #ubuntu:22.04
-#ubuntu:24.04
+ubuntu:24.04
+--platform=linux/arm64/v8 ubuntu:24.04
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-devel
@@ -39,7 +40,7 @@
 #redis:7.4.0
 #--platform=linux/arm64/v8 redis:6
 #redis:6
-pgvector/pgvector:0.8.0-pg17
+#pgvector/pgvector:0.8.0-pg17
 #--platform=linux/arm64 pgvector/pgvector:0.8.0-pg17
 #paradedb/paradedb:v0.13.2
 #approachingai/ktransformers:0.2.1
