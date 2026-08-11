@@ -1,6 +1,6 @@
 #ubuntu:22.04
-ubuntu:24.04
---platform=linux/arm64/v8 ubuntu:24.04
+#ubuntu:24.04
+#--platform=linux/arm64/v8 ubuntu:24.04
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
 #pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 #pytorch/pytorch:2.4.0-cuda12.1-cudnn9-devel
@@ -68,7 +68,7 @@ ubuntu:24.04
 #--platform=linux/arm64/v8 node:22-slim
 #neo4j:5.26.16-community
 #--platform=linux/arm64/v8 neo4j:5.26.16-community
-#nginx:1.29.3
+nginx:1.29.3
 #chromedp/headless-shell:135.0.7049.115
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8
 #ghcr.io/huggingface/text-embeddings-inference:cpu-1.8.3
