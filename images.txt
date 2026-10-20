@@ -51,7 +51,8 @@
 #nvcr.io/nvidia/pytorch:25.02-py3
 #nvcr.io/nvidia/pytorch:24.12-py3
 #nvcr.io/nvidia/cuda:12.6.0-devel-ubuntu24.04
-nvidia/cuda:13.0.0-devel-ubuntu24.04
+#nvidia/cuda:13.0.0-devel-ubuntu24.04
+--platform=linux/arm64 nvidia/cuda:13.0.0-devel-ubuntu24.04
 #nvcr.io/nvidia/tensorrt-llm/release:1.2.0rc0
 #lmsysorg/sglang:v0.5.3-cu129
 #lmsysorg/sglang:v0.5.6
