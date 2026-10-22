@@ -24,6 +24,7 @@
 #vllm/vllm-openai:v0.20.0
 #vllm/vllm-openai:v0.21.0
 #vllm/vllm-openai:v0.28.0
+--platform=linux/arm64 vllm/vllm-openai:v0.28.0
 #infantryman77/glm-47-flash-awq
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
