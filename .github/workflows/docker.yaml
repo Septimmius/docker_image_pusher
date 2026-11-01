@@ -40,7 +40,17 @@ jobs:
         build-mount-path: '/var/lib/docker/'
 
     - name: Restart docker
-      run: sudo service docker restart
+      run: |
+        # Keep image layers on the expanded /var/lib/docker volume, not /var/lib/containerd.
+        sudo mkdir -p /etc/docker
+        if [ ! -f /etc/docker/daemon.json ]; then
+          echo '{}' | sudo tee /etc/docker/daemon.json > /dev/null
+        fi
+        daemon_config=$(mktemp)
+        sudo jq '.features["containerd-snapshotter"] = false' /etc/docker/daemon.json > "$daemon_config"
+        sudo install -m 644 "$daemon_config" /etc/docker/daemon.json
+        rm "$daemon_config"
+        sudo service docker restart
 
     - name: Free up disk space complete
       run: |
