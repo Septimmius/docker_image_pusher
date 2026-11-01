@@ -25,7 +25,7 @@
 #vllm/vllm-openai:v0.21.0
 #vllm/vllm-openai:v0.28.0
 #--platform=linux/arm64 vllm/vllm-openai:v0.28.0
-vllm/vllm-openai:v0.32.0
+#vllm/vllm-openai:v0.32.0
 #infantryman77/glm-47-flash-awq
 #ghcr.io/ggml-org/llama.cpp:server
 #ghcr.io/ggml-org/llama.cpp:server-cuda
@@ -60,7 +60,7 @@ vllm/vllm-openai:v0.32.0
 #lmsysorg/sglang:v0.5.6
 #lmsysorg/sglang:v0.5.8
 #lmsysorg/sglang:v0.5.9
-#lmsysorg/sglang:v0.5.23
+lmsysorg/sglang:v0.5.23
 #lmsysorg/sglang:dev-clef
 #langfuse/langfuse:3
 #langfuse/langfuse-worker:3
